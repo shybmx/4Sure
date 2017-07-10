@@ -1,10 +1,10 @@
 header{
     position: fixed;
     z-index: 10;
-    background-color: #000;
+    background-color: #fff;
     width: 100%;
     top: 0px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 3px solid #5B9CB7;
 }
 
 html{
@@ -42,16 +42,15 @@ a{
 }
 
 a:hover{
-     color: #d35f52;
+     color: #5B9CB7;
 }
 
 a:active:{
-     color: #d35f52;
+     color: #5B9CB7;
 }
 
 p{
-    color: #000;
-    font-size: 100%;
+    
 }
 
 .socialbuttons{
@@ -60,7 +59,7 @@ p{
 }
 
 h1{
-    color: floralwhite;
+    color: black;
     text-align: center;
 }
 
@@ -81,7 +80,12 @@ h3{
 }
 
 h4{
-    text-decoration: underline #d35f52;
+    text-decoration: underline #5B9CB7;
     font-size: 250%;
     margin-bottom: -10px;
+}
+
+.logo{
+    float: left;
+    margin-left: -2%;
 }
