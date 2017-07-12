@@ -1,6 +1,6 @@
 header{
     position: fixed;
-    z-index: 10;
+    z-index: 5;
     background-color: #fff;
     width: 100%;
     top: 0px;
@@ -14,11 +14,12 @@ html{
     margin: 0;
     height: 100%;
     overflow-x: hidden;
+    font-family: sans-serif;
 }
 
 body{
     position: relative;
-    top: 30%; 
+    top: 25%; 
     background-color: #fff;
 }
 
@@ -66,6 +67,7 @@ h1{
 h2{
     text-align: center;
     font-size: 200%;
+    color: #5B9CB7;
 }
 
 .links{
@@ -133,4 +135,15 @@ h6{
 
 .wrapper{
    text-align: center;
+}
+
+.mapImage{
+    display: block;
+    margin: auto;
+}
+
+h8{
+    text-align: center;
+    text-decoration: underline;
+    position: center;
 }
