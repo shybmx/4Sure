@@ -147,3 +147,61 @@ h8{
     text-decoration: underline;
     position: center;
 }
+
+.slider {
+  max-width: 500px;
+  height: 200px;
+  margin: 20px auto;
+  position: relative;
+background-position: center;
+}
+.slide1,.slide2,.slide3{
+  position: absolute;
+  width: 200%;
+  height: 200%;
+    background-position: center;
+    padding-left: 50%;
+}
+.slide1 {
+  background: url(Images/Page/Bright.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 10s infinite;
+-webkit-animation:fade 10s infinite;
+    background-position: center;
+    
+} 
+.slide2 {
+  background: url(Images/Page/Electrician.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade2 10s infinite;
+-webkit-animation:fade2 10s infinite;
+    background-position: center;
+}
+.slide3 {
+    background: url(Images/Page/Line.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade3 10s infinite;
+-webkit-animation:fade3 10s infinite;
+    background-position: center center;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
